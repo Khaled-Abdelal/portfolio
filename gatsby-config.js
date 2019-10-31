@@ -6,6 +6,15 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /assets/ 
+        }
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
