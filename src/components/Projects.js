@@ -19,8 +19,8 @@ const projectsData = [
   { title:'Portfolio',
     description:'Portfolio page based on react gatsby static site generator',
     img:'./',
-    onGithub:{link:'link',disabled:false},
-    visit:{link:'link',disabled:true}  
+    onGithub:{link:'https://github.com/Khaled-Abdelal/portfolio/tree/master',disabled:false},
+    visit:{link:'https://khaled-abdelal.github.io/portfolio/',disabled:true}  
   }
 ]
 
