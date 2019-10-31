@@ -21,7 +21,7 @@ function About({setProjectsActive}) {
                     <h2 className="title is-4">About me</h2>
                     <hr className="divider"/>
                     <p className="short-about">
-                        I describe my self as someone who's persistant, a quick learner and loves problem solving by using simple and scalable solutions
+                        I describe my self as someone who's hard working, fast learner, found of building great apps using modern tools.
                     </p>
                </div>
                <div className="About-Education">
