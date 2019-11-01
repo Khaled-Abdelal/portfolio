@@ -1,5 +1,5 @@
 html{
-  height: 100%;
+  min-height: 100%;
   background: rgb(153,228,231);
   background: linear-gradient(90deg, rgba(153,228,231,1) 0%, rgba(145,53,201,1) 100%);
 }
@@ -31,7 +31,6 @@ a{
   min-height: 100%;
 }
 .layout .main{
-  max-height: 43rem;
   margin: 3rem auto;
   flex-wrap:wrap;
   justify-content: center;
@@ -49,7 +48,6 @@ a{
 }
 .SideComponent,.About,.Projects{
   margin: 1rem;
-  /* min-height: 33rem; */
 }
 .SideComponent .profile-pic{
   margin:3.1rem 0;
@@ -77,6 +75,20 @@ a{
   margin: 4rem auto;
   padding-left: 2rem;
   padding-right: 2rem;
+}
+.my-node-enter {
+  opacity: 0;
+}
+.my-node-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.my-node-exit {
+  opacity: 1;
+}
+.my-node-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
 }
 .About,.Projects{
   background: #fff;

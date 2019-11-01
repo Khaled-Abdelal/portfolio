@@ -5,6 +5,7 @@ import SideComponent from "../components/SideComponent"
 import About from "../components/About"
 import Projects from "../components/Projects"
 
+
 const IndexPage = () => {
   const [projectsActive, setProjectsActive] = useState(false)
   
@@ -13,7 +14,9 @@ const IndexPage = () => {
       <SideComponent/>
       {
        projectsActive?
-        <Projects setProjectsActive={setProjectsActive}/> :<About setProjectsActive={setProjectsActive}/>
+        <Projects setProjectsActive={setProjectsActive}/> 
+        :
+        <About setProjectsActive={setProjectsActive}/>
       }  
   </Layout>
 )}
